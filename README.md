@@ -7,7 +7,7 @@
 
 One-Click to deploy your own ChatGPT web UI.
 
-[演示 Demo](https://chat-gpt-next-web.vercel.app/) / [反馈 Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [加入 Discord](https://discord.gg/zrhvHCr79N) / [微信群](https://user-images.githubusercontent.com/16968934/227772522-b3ba3713-9206-4c8d-a81f-22300b7c313a.jpg) / [打赏开发者](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
+[演示 Demo](https://chat-gpt-next-web.vercel.app/) / [反馈 Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [加入 Discord](https://discord.gg/zrhvHCr79N) / [QQ 群](https://user-images.githubusercontent.com/16968934/228190818-7dd00845-e9b9-4363-97e5-44c507ac76da.jpeg) / [打赏开发者](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
 
@@ -116,6 +116,7 @@ OPENAI_API_KEY=<your api key here>
 2. 执行 `yarn install && yarn dev` 即可。
 
 ### 本地部署 Local Deployment
+<<<<<<< HEAD
 
 请直接询问 ChatGPT，使用下列 Prompt：
 
@@ -128,6 +129,12 @@ Please ask ChatGPT with prompt:
 ```
 how to deploy nextjs project with pm2 and yarn on my ubuntu server, the build command is `yarn build`, the start command is `yarn start`, the project must start with env var named `OPENAI_API_KEY`, the port is 3000, use ngnix
 ```
+=======
+```shell
+bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/scripts/setup.sh)
+```
+
+>>>>>>> upstream/main
 
 ### 容器部署 Docker Deployment
 
