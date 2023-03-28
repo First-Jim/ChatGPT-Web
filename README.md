@@ -116,7 +116,6 @@ OPENAI_API_KEY=<your api key here>
 2. 执行 `yarn install && yarn dev` 即可。
 
 ### 本地部署 Local Deployment
-<<<<<<< HEAD
 
 请直接询问 ChatGPT，使用下列 Prompt：
 
@@ -129,12 +128,10 @@ Please ask ChatGPT with prompt:
 ```
 how to deploy nextjs project with pm2 and yarn on my ubuntu server, the build command is `yarn build`, the start command is `yarn start`, the project must start with env var named `OPENAI_API_KEY`, the port is 3000, use ngnix
 ```
-=======
 ```shell
 bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/scripts/setup.sh)
 ```
 
->>>>>>> upstream/main
 
 ### 容器部署 Docker Deployment
 
